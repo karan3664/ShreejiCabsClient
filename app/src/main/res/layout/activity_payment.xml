@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColorNav">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimaryDark"
+                android:theme="?attr/actionBarTheme"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/AppTheme.PopupOverlay"></androidx.appcompat.widget.Toolbar>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/avantm"
+                android:text="Payment"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPayment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/app_bar"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/textTotalAmountPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/pay"
+            android:textColor="@color/buttonBlack"
+            android:textSize="22dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/View"
+        android:layout_width="@dimen/dimen_100dp"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/rlPayment"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/d_20dp"
+        android:background="@color/buttonBlack">
+
+    </View>
+
+
+    <TextView
+        android:id="@+id/tvPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/View"
+
+        android:gravity="center"
+        android:text="@string/select_your_payment"
+        android:textColor="@color/buttonBlack"
+        android:textSize="@dimen/text_18sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvPaymentMethod"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="@dimen/d_20dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/buttonBlack"></View>
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvNetBanking"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/View1"-->
+    <!--        android:layout_marginLeft="20dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:text="@string/netbanking"-->
+    <!--        android:textColor="@color/buttonBlack"-->
+    <!--        android:textSize="12dp">-->
+
+    <!--    </TextView>-->
+
+    <!--    <View-->
+    <!--        android:id="@+id/View2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0.5dp"-->
+    <!--        android:layout_below="@+id/tvNetBanking"-->
+    <!--        android:layout_marginLeft="5dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginRight="5dp"-->
+    <!--        android:background="@color/buttonBlack"></View>-->
+
+    <LinearLayout
+        android:id="@+id/llPayuMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:gravity="left|center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="@dimen/dimen_60dp"
+            android:src="@drawable/ic_payu" />
+
+        <TextView
+            android:id="@+id/tvCreditDebitCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/View2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/d_10dp"
+            android:gravity="start|center"
+            android:text="PayU Money"
+            android:textColor="@color/buttonBlack"
+            android:textSize="@dimen/d_20dp">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/View3"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvCreditDebitCard"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/buttonBlack" />
+
+    <LinearLayout
+        android:id="@+id/llCash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:gravity="left|center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_60dp"
+            android:layout_height="@dimen/dimen_60dp"
+            android:src="@drawable/ic_payment" />
+
+        <TextView
+            android:id="@+id/tvCashInHand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/View2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/d_10dp"
+            android:gravity="start|center"
+            android:text="Cash"
+            android:textColor="@color/buttonBlack"
+            android:textSize="@dimen/d_20dp" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/View4"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvCashInHand"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/buttonBlack" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:background="@color/mapboxGrayLight"
+        android:enabled="false"
+        android:text="Submit"
+        android:textColor="@color/white" />
+</LinearLayout>

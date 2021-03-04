@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.irvingryan:verifycodeview:1.1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/077f3b23a1f38ffd3e851d2baf3a643b/jetified-verifycodeview-1.1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/077f3b23a1f38ffd3e851d2baf3a643b/jetified-verifycodeview-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/077f3b23a1f38ffd3e851d2baf3a643b/jetified-verifycodeview-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/077f3b23a1f38ffd3e851d2baf3a643b/jetified-verifycodeview-1.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.irvingryan/verifycodeview/1.1.0/680609e5e1ae4db150e03cb05cac122ac09cf424/verifycodeview-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.irvingryan/verifycodeview/1.1.0/c4064c8fbf7fb4e72025c8f12841e0e0e53cc3bb/verifycodeview-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

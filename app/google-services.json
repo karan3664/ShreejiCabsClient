@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219327856418",
+    "firebase_url": "https://shrijicab.firebaseio.com",
+    "project_id": "shrijicab",
+    "storage_bucket": "shrijicab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219327856418:android:929b1b6beae848162eef7b",
+        "android_client_info": {
+          "package_name": "com.aryupay.shrijicabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219327856418-uc46k5rt4si60ecb7baad8jd4tvqtsrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aryupay.shrijicabs",
+            "certificate_hash": "fedc01ffaa2bfaf0c8b37b1885563e5cc423b9b1"
+          }
+        },
+        {
+          "client_id": "219327856418-j6vnhfd9mts3s4q88uvkng4ehb1jc8c6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8NWljjV-tayW8O-aIpN0CGe0XjYBLzpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219327856418-j6vnhfd9mts3s4q88uvkng4ehb1jc8c6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

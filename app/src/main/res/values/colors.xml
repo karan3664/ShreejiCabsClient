@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+
+    <!--    <color name="colorPrimary">#ffd11a</color>-->
+    <!--    <color name="colorPrimaryDark">#ffd11a</color>-->
+    <!--    <color name="colorAccent">#ffd11a</color>-->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#c4b700</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="theme_color">#c4b700</color>
+    <color name="buttonBlack">#1c1c1c</color>
+    <color name="theme_tab_color">#F8DDB4</color>
+    <color name="textColorNav">#ffffff</color>
+    <color name="backgroundNavColor">#222423</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="transparent">#00000000</color>
+    <color name="logobackground">#b36b00</color>
+    <color name="buttoncolor">#ffd11a</color>
+    <color name="back">#ffff</color>
+    <color name="col">#010203</color>
+
+    <!--custom color-->
+    <color name="orange_text">#ff6600</color>
+    <color name="grey_text">#525252</color>
+    <color name="view_color">#0914ac</color>
+    <color name="light_green">#7dc82d</color>
+    <color name="green">#6fb828</color>
+    <color name="dark_greeen">#1a780e</color>
+    <color name="dark_red">#dc1e1e</color>
+    <color name="hint_color_text">#4c4c4c</color>
+    <color name="tint_line_color">#b7b7b7</color>
+    <color name="black">#000000</color>
+    <color name="black_transparent">#6c000000</color>
+    <color name="black_transparent_banner">#ad000000</color>
+    <color name="black_transparent_category">#7d000000</color>
+    <color name="black_transparent_weather">#75000000</color>
+    <color name="white">#ffffff</color>
+    <color name="red_dark">#b62424</color>
+    <color name="black_listen_it">#190800</color>
+    <color name="red">#e74a13</color>
+    <color name="green_dull">#ddebda</color>
+    <color name="background_dull_white">#f2f2f2</color>
+    <color name="white_dull">#26ffffff</color>
+    <!--    <color name="transparent">#00ffffff</color>-->
+    <color name="purple_light">#f7eeff</color>
+    <color name="purple_light_grey">#66f7eeff</color>
+    <color name="line_color">#f7eeff</color>
+    <color name="line_color_transparent">#ffb48a</color>
+
+    <color name="colorPrimaryPix">#ff6600</color>
+    <color name="colorPrimaryLightPix">#f09826</color>
+    <!--    <color name="textColorNav">#ffffff</color>-->
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxGrayLight">#c6d2e1</color>
+    <color name="mapboxPink">#ee4e8b</color>
+    <color name="mapboxYellow">#d9d838</color>
+    <color name="mapboxRed">#b43b71</color>
+</resources>

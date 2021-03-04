@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".activities.HelpActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimaryDark"
+                android:theme="?attr/actionBarTheme"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:navigationIcon="?attr/homeAsUpIndicator"
+                app:popupTheme="@style/AppTheme.PopupOverlay"></androidx.appcompat.widget.Toolbar>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/avantm"
+                android:text="Help"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo_transparent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/d_10dp"
+                android:layout_marginBottom="@dimen/d_10dp"
+                android:background="@color/col" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_5dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="@dimen/dimen_160dp"
+                    android:layout_margin="@dimen/dimen_5dp"
+                    android:layout_weight="5"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/dimen_5dp"
+                    app:cardElevation="@dimen/dimen_3dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/relativeLayoutCall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageViewCall"
+                                android:layout_width="@dimen/dimen_40dp"
+                                android:layout_height="@dimen/dimen_40dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/book_a_call_call_icon" />
+
+                            <TextView
+                                android:id="@+id/textViewCall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageViewCall"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/dimen_5dp"
+                                android:gravity="center"
+                                android:text="Call Us"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/text_18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/textViewCall"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="0731-0000000"
+                                android:textColor="@color/grey_text"
+                                android:textSize="@dimen/text_14sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="@dimen/dimen_160dp"
+                    android:layout_margin="@dimen/dimen_5dp"
+                    android:layout_weight="5"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/dimen_5dp"
+                    app:cardElevation="@dimen/dimen_3dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/relativeLayoutEmail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageViewEmail"
+                                android:layout_width="@dimen/dimen_40dp"
+                                android:layout_height="@dimen/dimen_40dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/book_a_call_email_icon" />
+
+                            <TextView
+                                android:id="@+id/textViewEmail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imageViewEmail"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/dimen_5dp"
+                                android:text="Email Us"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/text_18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/textViewEmail"
+                                android:layout_gravity="center"
+                                android:text="info@shriji.com"
+                                android:textColor="@color/grey_text"
+                                android:textSize="@dimen/text_14sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_5dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="@dimen/dimen_160dp"
+                    android:layout_margin="@dimen/dimen_5dp"
+                    android:layout_weight="5"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/dimen_5dp"
+                    app:cardElevation="@dimen/dimen_3dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/relativeLayoutMessageMe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageViewMsg"
+                                android:layout_width="@dimen/dimen_40dp"
+                                android:layout_height="@dimen/dimen_40dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/book_a_call_email_icon" />
+
+                            <TextView
+                                android:id="@+id/textViewMsg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageViewMsg"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/dimen_5dp"
+                                android:gravity="center"
+                                android:text="Message Us"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/text_18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/textViewMsg"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="0731-0000000"
+                                android:textColor="@color/grey_text"
+                                android:textSize="@dimen/text_14sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/dimen_0dp"
+                    android:layout_height="@dimen/dimen_160dp"
+                    android:layout_margin="@dimen/dimen_5dp"
+                    android:layout_weight="5"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="@dimen/dimen_5dp"
+                    app:cardElevation="@dimen/dimen_3dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/relativeLayoutWhatsUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageViewWhatsUp"
+                                android:layout_width="@dimen/dimen_40dp"
+                                android:layout_height="@dimen/dimen_40dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/book_a_call_email_icon" />
+
+                            <TextView
+                                android:id="@+id/textViewWhatsUp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imageViewWhatsUp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/dimen_5dp"
+                                android:text="WhatsApp Us"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/text_18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/textViewWhatsUp"
+                                android:layout_gravity="center"
+                                android:text="9179605611"
+                                android:textColor="@color/grey_text"
+                                android:textSize="@dimen/text_14sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
